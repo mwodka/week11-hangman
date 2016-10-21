@@ -8,5 +8,6 @@ var wordBank = [
 ];
 module.exports.getRandomWord = function () {
 	var index = Math.random() * (wordBank);
+	return wordBank[index];
 }
 
