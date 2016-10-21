@@ -21,7 +21,7 @@ function playGame() {
             	guessesWrong++;
             }
             MyWord.displayWord();
-            playGame();x
+            playGame();
         });
     } else {
     	if (MyWord.isComplete()) {
