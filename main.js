@@ -6,7 +6,6 @@ var pastGuesses = [];
 
 var MyWord = new Word();
 var newWord = RandomWord.getRandomWord();
-console.log(newWord);
 MyWord.setWord(newWord);
 
 function playGame() {
