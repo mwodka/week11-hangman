@@ -38,13 +38,4 @@ function playGame() {
     }
 }
 
-function isLetter(input) {
-    var letters = /^[A-Za-z]+$/;
-    if (input.value.match(letters)) {
-        return true;
-    } else {
-        return false;
-    }
-}
-
 playGame();

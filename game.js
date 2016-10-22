@@ -1,5 +1,6 @@
 var exports = module.exports = {};
 var wordBank = [
+
 	'pneumonoultramicroscopicsilicovolcanoconiosis',
 	'pseudopseudohypoparathyroidism',
 	'floccinaucinihilipilification',
@@ -7,8 +8,9 @@ var wordBank = [
 	'euouae',
 	'strenghts'
 ];
+
 module.exports.getRandomWord = function () {
-	var index = parseInt(Math.random() * wordBank.length);
+	var index = Math.random() * (wordBank);
 	return wordBank[index];
 }
 
